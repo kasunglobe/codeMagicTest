@@ -1,0 +1,12 @@
+PW: Globe@MW
+
+keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+√ Path to the Keystore file. ... my-upload-key.keystore
+√ Keystore password ... ********
+√ Key alias ... my-key-alias
+√ Key password ... ********
+
+
+openssl base64 -A -in loki-config-s3.yaml -out loki-config-s3-base64encoded.txt
+
