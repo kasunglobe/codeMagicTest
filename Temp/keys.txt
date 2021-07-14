@@ -10,3 +10,6 @@ keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias
 
 openssl base64 -A -in loki-config-s3.yaml -out loki-config-s3-base64encoded.txt
 
+npm install -g sharp-cli
+
+https://reactnative.dev/docs/signed-apk-android
