@@ -1,4 +1,4 @@
-package com.kasunv.codeMagicTest.generated;
+package com.kasunv.codemagictest.generated;
 
 import java.util.Arrays;
 import java.util.List;

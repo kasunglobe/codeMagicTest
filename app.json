@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.kasunv.codeMagicTest"
+      "package": "com.kasunv.codemagictest"
     },
     "web": {
       "favicon": "./assets/favicon.png"

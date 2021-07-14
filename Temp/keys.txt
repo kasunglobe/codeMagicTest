@@ -9,6 +9,7 @@ keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias
 
 
 openssl base64 -A -in my-upload-key.keystore -out my-upload-key.keystore-base64encoded.txt
+openssl base64 -A -in release.keystore -out release.keystore-base64encoded.txt
 
 npm install -g sharp-cli
 

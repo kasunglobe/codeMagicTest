@@ -1,4 +1,4 @@
-package com.kasunv.codeMagicTest;
+package com.kasunv.codemagictest;
 import android.content.res.Configuration;
 import android.content.Intent;
 
