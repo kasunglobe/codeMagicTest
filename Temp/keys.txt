@@ -8,7 +8,7 @@ keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias
 √ Key password ... ********
 
 
-openssl base64 -A -in loki-config-s3.yaml -out loki-config-s3-base64encoded.txt
+openssl base64 -A -in my-upload-key.keystore -out my-upload-key.keystore-base64encoded.txt
 
 npm install -g sharp-cli
 
