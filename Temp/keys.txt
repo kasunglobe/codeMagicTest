@@ -13,3 +13,11 @@ openssl base64 -A -in my-upload-key.keystore -out my-upload-key.keystore-base64e
 npm install -g sharp-cli
 
 https://reactnative.dev/docs/signed-apk-android
+
+
+Errors
+______
+
+Invalid encryption key - encrypted variables work only with builds in the same team they were created with
+
+Invalid encryption key - encrypted variables work only with builds in the same team they were created with
